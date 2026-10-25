@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/products";
+const API_URL = "https://ecommerce-product-management-system-api.onrender.com/api/products";
 
 function App() {
   const [products, setProducts] = useState([]);
